@@ -2099,7 +2099,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   TextureSize: 0
-  BaseColor: {}
+  BaseColor:
+    serializedVersion: 2
+    rgba: 4278512639
   UseHistogram: 1
   MaxDepth: 10000
 --- !u!114 &134

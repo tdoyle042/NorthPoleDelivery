@@ -3,10 +3,15 @@ using System.Collections;
 
 public class House : Object {
 
-	public GameObject houseObj;
+	public GameObject HouseObj;
 
-	public House ()
+	public House (GameObject obj)
 	{
+		HouseObj = obj;
+	}
 
+	public void Move(float x, float y, float z)
+	{
+		HouseObj.transform.Translate(x,y,z);
 	}
 }
